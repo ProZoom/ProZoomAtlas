@@ -1,0 +1,102 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ccdddd">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fragment:"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Camera"
+                    android:id="@+id/show_camera"
+                    android:onClick="showCamera"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RECORD_AUDIO"
+                    android:id="@+id/record_audio"
+                    android:onClick="recordAudio"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GET_ACCOUNTS"
+                    android:id="@+id/get_accounts"
+                    android:onClick="getAccounts"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CALL_PHONE"
+                    android:id="@+id/call_phone"
+                    android:onClick="callPhone"/>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/read_phone_state"
+                android:text="PERMISSION_READ_PHONE_STATE"
+                android:onClick="readPhoneState"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/access_fine_location"
+                android:text="ACCESS_FINE_LOCATION"
+                android:onClick="accessFineLocation"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/access_coarse_location"
+                android:layout_height="wrap_content"
+                android:text="ACCESS_COARSE_LOCATION"
+                android:onClick="accessCoarseLocation"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/read_external_storage"
+                android:text="READ_EXTERNAL_STORAGE"
+                android:onClick="readExternalStorage"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/write_external_storage"
+                android:text="WRITE_EXTERNAL_STORAGE"
+                android:onClick="writeExternalStorage"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

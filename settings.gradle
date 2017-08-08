@@ -1,0 +1,6 @@
+/*宿主*/
+include ':app', ':bundlePublicLib', ':bundle_animation', ':bundle_textview', ':bundle_permission', ':bundle_imagecache', ':bundle_splashscreen', ':bundle_tagcloud', ':bundle_loading'
+/*插件*/
+include ':bundleSplashScreen'
+/*第三方库*/
+

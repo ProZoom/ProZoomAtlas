@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ProZoomAtlas.iml" filepath="$PROJECT_DIR$/ProZoomAtlas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bundlePublicLib/bundlePublicLib.iml" filepath="$PROJECT_DIR$/bundlePublicLib/bundlePublicLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bundleSplashScreen/bundleSplashScreen.iml" filepath="$PROJECT_DIR$/bundleSplashScreen/bundleSplashScreen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bundle_animation/bundle_animation.iml" filepath="$PROJECT_DIR$/bundle_animation/bundle_animation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bundle_imagecache/bundle_imagecache.iml" filepath="$PROJECT_DIR$/bundle_imagecache/bundle_imagecache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bundle_loading/bundle_loading.iml" filepath="$PROJECT_DIR$/bundle_loading/bundle_loading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bundle_permission/bundle_permission.iml" filepath="$PROJECT_DIR$/bundle_permission/bundle_permission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bundle_splashscreen/bundle_splashscreen.iml" filepath="$PROJECT_DIR$/bundle_splashscreen/bundle_splashscreen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bundle_tagcloud/bundle_tagcloud.iml" filepath="$PROJECT_DIR$/bundle_tagcloud/bundle_tagcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bundle_textview/bundle_textview.iml" filepath="$PROJECT_DIR$/bundle_textview/bundle_textview.iml" />
+    </modules>
+  </component>
+</project>

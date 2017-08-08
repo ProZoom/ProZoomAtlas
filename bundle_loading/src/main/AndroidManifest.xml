@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.zoom.bundle_loading">
+
+    <application android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <activity android:name=".loadActivity"/>
+        <activity android:name=".ProgressBar.ProgressBar_Color"/>
+    </application>
+
+</manifest>

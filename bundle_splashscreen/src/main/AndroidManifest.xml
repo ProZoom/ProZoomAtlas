@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.zoom.bundle_splashscreen">
+
+    <application android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Zaker.ZakerActivity"/>
+        <activity android:name=".viewpager.ViewPagerActivity"/>
+
+        <activity android:name=".Split.Activity1"/>
+        <activity android:name=".Split.Activity2"/>
+
+    </application>
+
+</manifest>
